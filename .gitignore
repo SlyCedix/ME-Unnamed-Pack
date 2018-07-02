@@ -1,0 +1,16 @@
+/cache
+/logs
+/mods
+/resourcepacks
+/saves
+/screenshots
+/server-resource-packs
+/snapshots-client
+/snapshots-server
+.curseclient
+crafttweaker.log
+minecraftinstance.json
+options.txt
+realms_persistence.json
+usercache.json
+usernamecache.json
