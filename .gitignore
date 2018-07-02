@@ -7,6 +7,10 @@
 /server-resource-packs
 /snapshots-client
 /snapshots-server
+/journeymap
+!/journeymap/config
+/config/splash.properties
+/config/jei/worldSettings.cfg
 .curseclient
 crafttweaker.log
 minecraftinstance.json
