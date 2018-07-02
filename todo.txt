@@ -28,12 +28,6 @@ Tech Tree - Unlockable stages
     - Rockets (If I decide to add advanced rocketry)
     Add science packs used for these unlocks
 
-Remove Numismatic Press Recipes
-Change localized name for Numismatic Press to Intergalactic Trade Beacon
-Add recipes for ContentTweaker coins to Intergalactic Trade Beacon
-Stage recipes with tech tree in better questing
-Stage Numismatic press behind tech tree
-
 Remove AE meteors
 Add recipes for AE presses
 
