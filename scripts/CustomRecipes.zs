@@ -3,6 +3,7 @@ import mods.thermalexpansion.Compactor;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.player.IPlayer;
 
 //Custom Item Recipes
 recipes.addShapeless(<contenttweaker:coin_copper> * 9, [<contenttweaker:coin_tin>]);
@@ -180,8 +181,11 @@ for i in 128 to 137 {
 for i in 160 to 168 {
     mods.thermalexpansion.Compactor.removeMintRecipe(<thermalfoundation:material>.withDamage(i));
 }
-mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<practicallogistics2:node>*23, 5000);
+
+mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<practicallogistics2:node>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:32>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:320>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:321>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_tin> * 4,<immersiveengineering:material:8>*40, 5000);
+
+mods.recipestages.Recipes.addItemStages.addItemStage("entrepreneur", <thermalexpansion:augment:336>)
