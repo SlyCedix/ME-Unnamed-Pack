@@ -1,0 +1,120 @@
+[  
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:coal_ore"
+    },
+    "widthMin": 5,
+    "widthMax": 7,
+    "countMin": 12,
+    "countMax": 20,
+    "yieldMin": 340,
+    "yieldMax": 425
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:iron_ore"
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 150,
+    "yieldMax": 300
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:gold_ore"
+    },
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 12,
+    "yieldMin": 100,
+    "yieldMax": 200
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:diamond_ore"
+    },
+    "widthMin": 2,
+    "widthMax": 4,
+    "countMin": 4,
+    "countMax": 8,
+    "yieldMin": 50,
+    "yieldMax": 100
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:redstone_ore"
+    },
+    "widthMin": 3,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 10,
+    "yieldMin": 50,
+    "yieldMax": 100
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:lapis_ore"
+    },
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 4,
+    "countMax": 6,
+    "yieldMin": 50,
+    "yieldMax": 100
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:emerald_ore"
+    },
+    "biome": [
+      "extreme_hills",
+      "smaller_extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ],
+    "weight": 100,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 2,
+    "countMax": 4,
+    "yieldMin": 25,
+    "yieldMax": 50
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:quartz_ore"
+    },
+    "dimension": "nether",
+    "widthMin": 2,
+    "widthMax": 5,
+    "countMin": 8,
+    "countMax": 10,
+    "yieldMin": 300,
+    "yieldMax": 600
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "minecraft:glowstone"
+    },
+    "dimension": "nether",
+    "widthMin": 5,
+    "widthMax": 8,
+    "countMin": 10,
+    "countMax": 14,
+    "yieldMin": 300,
+    "yieldMax": 600
+  }
+]

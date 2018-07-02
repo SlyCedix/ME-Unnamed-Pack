@@ -1,0 +1,45 @@
+Progress - Intended progression path
+    BC Laser and Assembly Table- Make more expensive
+        - Add recipe for basic electronic circuit
+        - Add electronic circuit to basic machine casing crafting
+    IC2 basic machines - Make more expensive
+        - Require slag to make immersive engineering blast furnace
+    Immersive engineering - Crafting recipes mostly okay
+        -Restrict early electrum to arc furnace
+    Thermal Expansion - Require electrum and steel for most of thermal expansion
+        -Stage in dimensional travel
+        -Require enderium for QED
+    IC2 Advanced Machines - Make more expensive
+        -Require RTG fuel for tech reborn basic machine casing (Stage in better recipe after first craft)
+    Tech Reborn - Make more expensive
+        -Stage in AE
+    Mekanism - Make more expensive
+        -Require some late tech reborn item for recipes
+        -Ore 15x IC2 -> Mekanism
+    Maybe advanced rocketry
+
+Industrial Revolution - Mini tutorials on how to use certain mod blocks
+Agrarian - All farming related things, including 
+
+Tech Tree - Unlockable stages
+    - 4 Levels of Entrepeneur, unlocks Intergalactic Trade beakon with 80% efficiency sales -> 100% -> 125% -> 150%
+    - Dimensional Travel - Nether, End, Deep Dark (After Thermal Expansion machine frame)
+    - Applied Energistics (After tech reborn basic machine casing)
+    - Rockets (If I decide to add advanced rocketry)
+    Add science packs used for these unlocks
+
+Remove Numismatic Press Recipes
+Change localized name for Numismatic Press to Intergalactic Trade Beacon
+Add recipes for ContentTweaker coins to Intergalactic Trade Beacon
+Stage recipes with tech tree in better questing
+Stage Numismatic press behind tech tree
+
+Remove AE meteors
+Add recipes for AE presses
+
+Add more things to sell in marketplace
+Add inventory pets to marketplace
+Add some basic logistics solutions to marketplace
+
+Remove Crafting Station Recipes
+Oredict auto workbench instead of replacing recipe
