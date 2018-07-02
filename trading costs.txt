@@ -1,0 +1,4 @@
+Creosote Oil x 16 = 1 Copper Coin 
+Node x 32 = 1 Copper Coin
+Iron/Tin/Copper Plate * 32 = 1 Copper Coin
+Iron Mechanical Component * 4 = 3 Copper Coin

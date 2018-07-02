@@ -1147,7 +1147,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "contenttweaker:coin_copper",
-              "Count:3": 5,
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1211,7 +1211,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "contenttweaker:coin_copper",
-              "Count:3": 5,
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1275,7 +1275,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "contenttweaker:coin_copper",
-              "Count:3": 5,
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1339,7 +1339,7 @@
           "rewards:9": {
             "0:10": {
               "id:8": "contenttweaker:coin_copper",
-              "Count:3": 7,
+              "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -2699,7 +2699,7 @@
           "desc:8": "Intended progression through mods."
         }
       },
-      "order:3": 3
+      "order:3": 2
     },
     "2:10": {
       "quests:9": {
@@ -2871,7 +2871,7 @@
           "desc:8": "You\u0027ve already got quite a few machines, now\u0027s time to make some more."
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "4:10": {
       "quests:9": {
@@ -2933,7 +2933,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "home_offset_x:3": -128,
