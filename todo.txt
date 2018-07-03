@@ -22,7 +22,6 @@ Industrial Revolution - Mini tutorials on how to use certain mod blocks
 Agrarian - All farming related things, including 
 
 Tech Tree - Unlockable stages
-    - 4 Levels of Entrepeneur, unlocks Intergalactic Trade beakon with 80% efficiency sales -> 100% -> 125% -> 150%
     - Dimensional Travel - Nether, End, Deep Dark (After Thermal Expansion machine frame)
     - Applied Energistics (After tech reborn basic machine casing)
     - Rockets (If I decide to add advanced rocketry)
