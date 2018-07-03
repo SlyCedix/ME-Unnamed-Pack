@@ -1,0 +1,39 @@
+{
+    "populate": {
+        "quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "appliedenergistics2:quartz_ore",
+						"properties": {
+							"type": "quartz"
+						},
+						"weight": 80
+					},
+					{
+						"name": "appliedenergistics2:charged_quartz_ore",
+						"properties": {
+							"type": "charged quartz"
+						},
+						"weight": 20
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+    }
+}
