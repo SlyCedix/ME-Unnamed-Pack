@@ -1,7 +1,8 @@
+#priority 1000
 #loader contenttweaker
+
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
-import mods.contenttweaker.Block;
 
 //Coins
 var copperCoin = VanillaFactory.createItem("coin_copper");
@@ -24,9 +25,3 @@ iridiumCoin.register();
 //Plastic
 var sapRubber = VanillaFactory.createItem("rubber_sap");
 sapRubber.register();
-
-//Cupronickel Bulkhead
-var cupronickelBulkhead = VanillaFactory.createBlock("bulkhead", <blockmaterial:iron>);
-cupronickelBulkhead.setBlockHardness(1.5);
-cupronickelBulkhead.setToolLevel(2);
-cupronickelBulkhead.register();
