@@ -33,9 +33,6 @@ Add more things to sell in marketplace
 Add inventory pets to marketplace
 Add some basic logistics solutions to marketplace
 
-Remove Crafting Station Recipes
-Oredict auto workbench instead of replacing recipe
-
 Add rest of bedrock ores
 Add bedrock ore scanners to shop
 

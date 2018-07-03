@@ -3,7 +3,6 @@ import mods.thermalexpansion.Compactor;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-import crafttweaker.player.IPlayer;
 
 //Custom Item Recipes
 recipes.addShapeless(<contenttweaker:coin_copper> * 9, [<contenttweaker:coin_tin>]);
@@ -31,8 +30,12 @@ recipes.addShaped(<contenttweaker:bulkhead>,[[<techreborn:part:13>,<ore:plateCop
 
 //Crafting Table -> autoworkbench
 recipes.remove(<minecraft:crafting_table>);
+recipes.remove(<tconstruct:tooltables:0>);
 recipes.addShapeless(<buildcraftfactory:autoworkbench_item>, [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>]);
-recipes.replaceAllOccurences(<ore:workbench>, <buildcraftfactory:autoworkbench_item>);
+<ore:workbench>.add(<buildcraftfactory:autoworkbench_item>);
+<ore:craftingTableWood>.add(<buildcraftfactory:autoworkbench_item>);
+<ore:crafterWood>.add(<buildcraftfactory:autoworkbench_item>);
+recipes.replaceAllOccurences(<minecraft:crafting_table>,<ore:workbench>);
 
 //Tools -> inventory crafting grid
 recipes.remove(<minecraft:wooden_pickaxe>);
@@ -158,8 +161,7 @@ for item in loadedMods["enderio"].items{
 }
 
 //Shop only recipes
-recipes.remove(<enderutilities:machine_1:2>);
-recipes.remove(<enderutilities:machine_1:2>);
+mods.ItemStages.addItemStage("Blocked Items",<enderutilities:machine_1:2>);
 recipes.remove(<enderutilities:storage_0:3>);
 recipes.remove(<enderutilities:storage_0:4>);
 recipes.remove(<enderutilities:storage_0:5>);
