@@ -145,5 +145,19 @@
         "overlay": "undergroundbiomes:blocks/overlays/thermalfoundation/destabilized_redstone",
         "lightValue": -1,
         "oreDirectories": []
+      },
+      {
+        "internalOreName": "techreborn:ore",
+        "meta": 2,
+        "overlay": "contenttweaker:blocks/overlays/techreborn/ruby",
+        "lightValue": -1,
+        "oreDirectories": []
+      },
+      {
+        "internalOreName": "techreborn:ore",
+        "meta": 3,
+        "overlay": "contenttweaker:blocks/overlays/techreborn/sapphire",
+        "lightValue": -1,
+        "oreDirectories": []
       }
   ]
