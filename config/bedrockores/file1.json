@@ -116,5 +116,91 @@
     "countMax": 14,
     "yieldMin": 300,
     "yieldMax": 600
+  },
+  {
+    "enabled": false,
+    "state": {
+      "name": "immersiveengineering:ore",
+      "properties": {
+          "type": "aluminum"
+      }
+    }
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "thermalfoundation:ore",
+      "properties": {
+        "type": "aluminum"
+      }
+    },
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 150,
+    "yieldMax": 300
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "thermalfoundation:ore",
+      "properties": {
+        "type": "platinum"
+      }
+    },
+    "widthMin": 2,
+    "widthMax": 4,
+    "countMin": 4,
+    "countMax": 8,
+    "yieldMin": 50,
+    "yieldMax": 100
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "thermalfoundation:ore",
+      "properties": {
+        "type": "iridium"
+      }
+    },
+    "widthMin": 2,
+    "widthMax": 4,
+    "countMin": 4,
+    "countMax": 8,
+    "yieldMin": 50,
+    "yieldMax": 100
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "techreborn:ore",
+      "properties": {
+        "type": "ruby"
+      }
+    },
+    "weight": 2,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 2,
+    "countMax": 4,
+    "yieldMin": 25,
+    "yieldMax": 50
+  },
+  {
+    "enabled": true,
+    "state": {
+      "name": "techreborn:ore",
+      "properties": {
+        "type": "sapphire"
+      }
+    },
+    "weight": 2,
+    "widthMin": 2,
+    "widthMax": 3,
+    "countMin": 2,
+    "countMax": 4,
+    "yieldMin": 25,
+    "yieldMax": 50
   }
 ]

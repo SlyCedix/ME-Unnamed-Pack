@@ -33,7 +33,8 @@ Add more things to sell in marketplace
 Add inventory pets to marketplace
 Add some basic logistics solutions to marketplace
 
-Add rest of bedrock ores
+Maybe increase regular ore spawns
+
 Add bedrock ore scanners to shop
 
 Unify remaining stray ingot and plate crafting recipes
