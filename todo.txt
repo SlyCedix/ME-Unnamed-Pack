@@ -19,7 +19,7 @@ Progress - Intended progression path
     Maybe advanced rocketry
 
 Industrial Revolution - Mini tutorials on how to use certain mod blocks
-Agrarian - All farming related things, including 
+Agrarian - All farming related things, including Agricraft & Pam's Harvestcraft
 
 Tech Tree - Unlockable stages
     - Dimensional Travel - Nether, End, Deep Dark (After Thermal Expansion machine frame)
@@ -35,6 +35,4 @@ Add some basic logistics solutions to marketplace
 
 Maybe increase regular ore spawns
 
-Add bedrock ore scanners to shop
-
-Unify remaining stray ingot and plate crafting recipes
+Unify remaining stray ingot, plate, and gear crafting recipes
