@@ -56,6 +56,7 @@ var removeAndHideItems as IItemStack[] = [
     <enderio:item_redstone_nor_filter>,
     <enderio:item_redstone_nand_filter>,
     <enderio:item_redstone_xnor_filter>,
+    <enderio:item_redstone_xor_filter>,
     <enderio:item_redstone_toggle_filter>,
     <enderio:item_redstone_counting_filter>,
     <enderio:item_redstone_sensor_filter>,
