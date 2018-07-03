@@ -18,7 +18,7 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 32
 			},
 			"cluster-count": 2,
 			"chunk-chance": 12,
@@ -51,7 +51,7 @@
 					}
 				],
 				"material": "minecraft:netherrack",
-				"cluster-size": 20
+				"cluster-size": 40
 			},
 			"cluster-count": 2,
 			"chunk-chance": 12,
