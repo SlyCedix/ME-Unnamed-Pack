@@ -27,7 +27,6 @@ Tech Tree - Unlockable stages
     - Rockets (If I decide to add advanced rocketry)
     Add science packs used for these unlocks
 
-Remove AE meteors
 Add recipes for AE presses
 
 Add more things to sell in marketplace
@@ -36,3 +35,6 @@ Add some basic logistics solutions to marketplace
 
 Remove Crafting Station Recipes
 Oredict auto workbench instead of replacing recipe
+
+Add rest of bedrock ores
+Add bedrock ore scanners to shop
