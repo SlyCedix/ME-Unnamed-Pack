@@ -33,8 +33,6 @@ Add more things to sell in marketplace
 Add inventory pets to marketplace
 Add some basic logistics solutions to marketplace
 
-Maybe increase regular ore spawns
-
 Unify remaining stray ingot, plate, and gear crafting recipes
 
 Tweak mob spawns
