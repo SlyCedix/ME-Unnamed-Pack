@@ -38,3 +38,5 @@ Oredict auto workbench instead of replacing recipe
 
 Add rest of bedrock ores
 Add bedrock ore scanners to shop
+
+Unify remaining stray ingot and plate crafting recipes
