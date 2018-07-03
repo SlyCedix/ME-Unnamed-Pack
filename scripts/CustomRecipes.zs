@@ -188,4 +188,4 @@ mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<ther
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:321>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_tin> * 4,<immersiveengineering:material:8>*40, 5000);
 
-mods.recipestages.Recipes.addItemStages.addItemStage("entrepreneur", <thermalexpansion:augment:336>)
+mods.ItemStages.addItemStage("entrepreneur", <thermalexpansion:augment:336>);
