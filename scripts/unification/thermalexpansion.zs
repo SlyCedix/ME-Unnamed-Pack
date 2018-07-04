@@ -43,7 +43,7 @@ for item in <ore:meshCarbon>.items{
 	mods.thermalexpansion.Compactor.addPressRecipe(<techreborn:plates:2>,item,4000);
 }
 
-mods.thermalexpansion.Compactor.removePressRecipe(techreborn:ingot:22);
+mods.thermalexpansion.Compactor.removePressRecipe(<techreborn:ingot:22>);
 for item in <ore:ingotIridiumAlloy>.items{
 	mods.thermalexpansion.Compactor.addPressRecipe(<techreborn:plates:37>,item,4000);
 }
