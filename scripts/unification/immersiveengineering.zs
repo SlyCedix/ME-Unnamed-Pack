@@ -6,7 +6,9 @@ mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:14>,<ore:gemRe
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:13>,<ore:gemPeridot>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:12>,<ore:gemSapphire>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:11>,<ore:gemRuby>,<immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:10>,<ore:dustLazurite>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:9>,<ore:dustObsidian>,<immersiveengineering:mold:0>, 2000);
+mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:8>,<ore:itemCoal>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:6>,<ore:gemEmerald>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:5>,<ore:gemDiamond>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:4>,<ore:gemRedstone>,<immersiveengineering:mold:0>, 2000);

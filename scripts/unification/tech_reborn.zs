@@ -49,6 +49,7 @@ var compressorOutputs as IItemStack[] = [
     <techreborn:plates:33>,
     <techreborn:plates:34>,
     <techreborn:plates:35>,
+    <ic2:plate:4>,
 ];
 
 var compressorInputs as IIngredient[] = [
@@ -93,6 +94,7 @@ var compressorInputs as IIngredient[] = [
     <ore:ingotZinc>,
     <ore:ingotRefinedIron>,
     <ore:ingotAdvancedAlloy>,
+    <ore:dustLapis>
 ];
 
 for i, item in compressorOutputs {
