@@ -14,6 +14,9 @@ var removeItems as IItemStack[] = [
 
     //Buildcraft
     <buildcraftfactory:autoworkbench_item>,
+    <buildcraftsilicon:laser>,
+    <buildcraftsilicon:assembly_table>,
+    <buildcraftbuilders:quarry>,
 
     //Ender IO
     <enderio:item_basic_capacitor:0>,
@@ -42,6 +45,10 @@ var removeItems as IItemStack[] = [
     <enderutilities:enderpart:53>,
     <enderutilities:enderpart:54>,
 
+    //Environmental Tech
+    <environmentaltech:laser_core>,
+    <environmentaltech:laser_lens>,
+
     //Extra Utilities 2
     <extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
 
@@ -50,6 +57,9 @@ var removeItems as IItemStack[] = [
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:material:8>,
     <immersiveengineering:material:9>,
+
+    //Industrial Craft 2
+    <ic2:crafting:1>,
 
     //Practical Logistics 2
     <practicallogistics2:node>,
