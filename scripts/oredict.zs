@@ -26,3 +26,7 @@ recipes.replaceAllOccurences(<ic2:crafting:14>,<ore:meshCarbon>);
 recipes.replaceAllOccurences(<ic2:crafting:15>,<ore:plateCarbon>);
 recipes.replaceAllOccurences(<techreborn:part:35>,<ore:fiberCarbon>);
 recipes.replaceAllOccurences(<techreborn:part:34>,<ore:meshCarbon>);
+
+//IC2 Alloys
+recipes.replaceAllOccurences(<ic2:crafting:4>,<ore:plateIridiumAlloy>);
+recipes.replaceAllOccurences(<ic2:crafting:3>,<ore:plateAdvancedAlloy>);

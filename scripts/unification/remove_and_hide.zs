@@ -46,6 +46,9 @@ var removeAndHideItems as IItemStack[] = [
 	<immersiveengineering:ore:*>,
 
     //Industrial Craft 2
+    <ic2:resource:1>,
+	<ic2:resource:2>,
+	<ic2:resource:3>,
     <ic2:resource:5>,
     <ic2:resource:6>,
     <ic2:resource:7>,
@@ -60,19 +63,17 @@ var removeAndHideItems as IItemStack[] = [
     <ic2:plate:6>,
     <ic2:plate:7>,
     <ic2:plate:8>,
-    <ic2:ingot:0>,
     <ic2:crafting:4>,
     <ic2:crafting:13>,
     <ic2:crafting:14>,
+    <ic2:crafting:15>,
+    <ic2:ingot:0>,
 	<ic2:ingot:1>,
 	<ic2:ingot:2>,
 	<ic2:ingot:3>,
 	<ic2:ingot:4>,
 	<ic2:ingot:5>,
 	<ic2:ingot:6>,
-	<ic2:resource:1>,
-	<ic2:resource:2>,
-	<ic2:resource:3>,
 
     //Mekanism
     <mekanism:basicblock:1>,
@@ -153,4 +154,8 @@ var removeAndHideItems as IItemStack[] = [
 
 for item in removeAndHideItems {
 	mods.jei.JEI.removeAndHide(item);
+}
+
+for item in removeAndHideItems {
+	mods.jei.JEI.hide(item);
 }

@@ -22,3 +22,5 @@ mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:14>,<ore:plateLead>,<i
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:15>,<ore:plateObsidian>,<immersiveengineering:mold:0>, 2000, 9);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:16>,<ore:plateSteel>,<immersiveengineering:mold:0>, 2000, 9);
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:17>,<ore:plateTin>,<immersiveengineering:mold:0>, 2000, 9);
+
+mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>);

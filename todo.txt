@@ -32,4 +32,7 @@ Add recipes for AE presses
 Add more things to sell in marketplace
 Add some basic logistics solutions to marketplace
 
+Add remaining plate recipes to IC2 compressor
+Add remaining plate recipes to TE Compactor
+
 Tweak mob spawns

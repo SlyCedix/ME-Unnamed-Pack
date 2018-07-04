@@ -4,6 +4,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 mods.techreborn.compressor.removeAll();
+mods.techreborn.compressor.removeRecipe(<ic2:crafting:15>);
+
 
 var compressorOutputs as IItemStack[] = [
     <thermalfoundation:material:32>,
