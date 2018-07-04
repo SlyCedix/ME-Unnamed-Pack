@@ -1,7 +1,29 @@
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+var modIDs as string[] = [
+];
+
+var exclude as IIngredient[] = [
+    <mekanism:oreblock:0>,
+];
+
+for id in modIDs{
+    for item in loadedMods[id].items{
+        var valid = true;
+        for excluded in exclude {
+            if (excluded.matchesExact(item)){
+                valid = false;
+            }
+        }
+        if valid {
+            mods.ItemStages.addItemStage("mekanism", item);
+        }
+    }
+}
+
 
 var stagedItems as IItemStack[] = [
-    <mekanism:controlcircuit:0>,
 ];
 
 for item in stagedItems {
