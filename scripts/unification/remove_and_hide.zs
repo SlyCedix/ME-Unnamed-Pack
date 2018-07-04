@@ -74,6 +74,7 @@ var removeAndHideItems as IItemStack[] = [
 	<ic2:ingot:4>,
 	<ic2:ingot:5>,
 	<ic2:ingot:6>,
+    <ic2:ingot:7>,
 
     //Mekanism
     <mekanism:basicblock:1>,
