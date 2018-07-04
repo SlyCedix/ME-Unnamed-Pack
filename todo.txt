@@ -36,5 +36,3 @@ Add some basic logistics solutions to marketplace
 Unify remaining stray ingot, plate, and gear crafting recipes
 
 Tweak mob spawns
-
-Fix Dregora dungeon loot

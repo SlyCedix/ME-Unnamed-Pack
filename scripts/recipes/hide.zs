@@ -10,36 +10,6 @@ static hideIngredients as IIngredient[] = [
 	//Buildcraft
 	<buildcraftsilicon:plug_facade:*>,
 
-	//Industrial Craft 2
-	<ic2:ingot:1>,
-	<ic2:ingot:2>,
-	<ic2:ingot:3>,
-	<ic2:ingot:4>,
-	<ic2:ingot:5>,
-	<ic2:ingot:6>,
-	<ic2:resource:1>,
-	<ic2:resource:2>,
-	<ic2:resource:3>,
-
-	//Immersive Engineering
-	<immersiveengineering:metal:0>,
-	<immersiveengineering:metal:1>,
-	<immersiveengineering:metal:2>,
-	<immersiveengineering:metal:3>,
-	<immersiveengineering:metal:4>,
-	<immersiveengineering:metal:6>,
-	<immersiveengineering:metal:7>,
-	<immersiveengineering:metal:8>,
-	<immersiveengineering:ore:0>,
-
-	// Mekanism
-	<mekanism:ingot:2>,
-	<mekanism:ingot:4>,
-	<mekanism:ingot:5>,
-	<mekanism:ingot:6>,
-	<mekanism:oreblock:1>,
-	<mekanism:oreblock:2>,
-
 	//Practical Logistics 2
 	<practicallogistics2:sapphireore>,
 
@@ -93,25 +63,6 @@ static hideIngredients as IIngredient[] = [
 	<tconstruct:tough_binding:*>,
 	<tconstruct:tough_tool_rod:*>,
 	<tconstruct:wide_guard:*>,
-
-	//Tech Reborn
-	<techreborn:ingot:0>,
-	<techreborn:ingot:2>,
-	<techreborn:ingot:4>,
-	<techreborn:ingot:5>,
-	<techreborn:ingot:6>,
-	<techreborn:ingot:8>,
-	<techreborn:ingot:9>,
-	<techreborn:ingot:10>,
-	<techreborn:ingot:11>,
-	<techreborn:ingot:12>,
-	<techreborn:ingot:13>,
-	<techreborn:ore2:1>,
-	<techreborn:ore:0>,
-	<techreborn:ore:1>,
-	<techreborn:ore:4>,
-	<techreborn:ore:12>,
-	<techreborn:ore:13>,
 
 	//Thermal Foundation
 	<thermalfoundation:coin:*>,

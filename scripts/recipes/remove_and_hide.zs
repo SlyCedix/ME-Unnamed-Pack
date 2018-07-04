@@ -60,7 +60,7 @@ var removeAndHideItems as IItemStack[] = [
     <enderio:item_redstone_toggle_filter>,
     <enderio:item_redstone_counting_filter>,
     <enderio:item_redstone_sensor_filter>,
-    <enderio:item_redstone_timer_filter>
+    <enderio:item_redstone_timer_filter>,
 ];
 
 for item in removeAndHideItems {
