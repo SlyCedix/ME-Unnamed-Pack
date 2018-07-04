@@ -30,7 +30,6 @@ Tech Tree - Unlockable stages
 Add recipes for AE presses
 
 Add more things to sell in marketplace
-Add inventory pets to marketplace
 Add some basic logistics solutions to marketplace
 
 Unify remaining stray ingot, plate, and gear crafting recipes
