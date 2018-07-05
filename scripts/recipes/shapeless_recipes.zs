@@ -26,7 +26,6 @@ recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "imm
 recipes.addShapeless(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),[
     <practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>, <practicallogistics2:stoneplate>,
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"})]);
-recipes.addShapeless(<immersiveengineering:material:9>, [<ore:plateSteel>, <immersiveengineering:material:8>]);
 
 //QuarryPlus
 recipes.addShapeless(<quarryplus:markerplus>, [<buildcraftcore:marker_volume>,<buildcraftsilicon:redstone_chipset>]);

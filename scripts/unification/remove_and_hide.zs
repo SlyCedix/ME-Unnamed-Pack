@@ -96,6 +96,9 @@ var removeAndHideItems as IItemStack[] = [
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
 
+    //Practical Logistics 2
+    <practicallogistics2:sapphiredust>,
+
     //Tech Reborn
     <techreborn:plates:0>,
     <techreborn:plates:1>,

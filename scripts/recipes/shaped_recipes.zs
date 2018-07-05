@@ -22,6 +22,11 @@ recipes.addShaped(<immersiveengineering:material:8>, [
     [<ore:gearIron>, <practicallogistics2:node>, <ore:gearIron>], 
     [<practicallogistics2:node>, <ore:gearIron>, <practicallogistics2:node>], 
     [<ore:gearIron>, <practicallogistics2:node>, <ore:gearIron>]]);
+recipes.addShaped(<immersiveengineering:material:9>, [
+    [null,<ore:plateSteel>,null],
+    [<ore:plateSteel,<immersiveengineering:material:8>,<ore:plateSteel>],
+    [null,<ore:plateSteel>,null]]);
+
 
 //Practical Logistics 2
 recipes.addShaped(<practicallogistics2:node>, [

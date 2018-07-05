@@ -48,3 +48,7 @@ for item in <ore:ingotIridiumAlloy>.items{
 for item in <ore:itemCoal>.items{
 	mods.thermalexpansion.Compactor.addPressRecipe(<techreborn:plates:8>,item,4000);
 }
+mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:stoneplate>*4,<minecraft:stone>,4000);
+mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:etchedplate>*4,<minecraft:diamond>,4000);
+mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:signallingplate>*4,<minecraft:redstone>,4000);
+mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:wirelessplate>*4,<minecraft:ender_pearl>,4000);

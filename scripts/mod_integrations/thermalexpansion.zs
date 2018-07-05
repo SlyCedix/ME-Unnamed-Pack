@@ -14,3 +14,5 @@ mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<ther
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:320>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_copper>,<thermalfoundation:material:321>*32, 5000);
 mods.thermalexpansion.Compactor.addMintRecipe(<contenttweaker:coin_tin> * 4,<immersiveengineering:material:8>*40, 5000);
+
+mods.thermalexpansion.Compactor.addPressRecipe(<minecraft:hopper>,<practicallogistics2:stoneplate>*3,4000);
