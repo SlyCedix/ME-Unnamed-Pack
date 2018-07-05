@@ -44,6 +44,8 @@ var removeAndHideItems as IItemStack[] = [
 	<immersiveengineering:metal:7>,
 	<immersiveengineering:metal:8>,
 	<immersiveengineering:ore:*>,
+    <immersiveengineering:stone_decoration:3>,
+	<immersiveengineering:material:6>,
 
     //Industrial Craft 2
     <ic2:resource:1>,

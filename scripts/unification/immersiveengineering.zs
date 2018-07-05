@@ -1,4 +1,5 @@
 import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.CokeOven;
 
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:37>,<ore:ingotIridiumAlloy>,<immersiveengineering:mold:0>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<techreborn:plates:15>,<ore:gemYellowGarnet>,<immersiveengineering:mold:0>, 2000);
@@ -26,3 +27,8 @@ mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:16>,<ore:plateSteel>,<
 mods.immersiveengineering.MetalPress.addRecipe(<ic2:plate:17>,<ore:plateTin>,<immersiveengineering:mold:0>, 2000, 9);
 
 mods.immersiveengineering.MetalPress.removeRecipe(<ic2:crafting:4>);
+
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
+mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
+mods.immersiveengineering.CokeOven.addRecipe(<thermalfoundation:material:802>, 500, <ore:coal>, 1000);
+mods.immersiveengineering.CokeOven.addRecipe(<thermalfoundation:storage_resource:1>, 5000, <ore:blockCoal>, 9000);
