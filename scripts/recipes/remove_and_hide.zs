@@ -2,7 +2,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var modIDs as string[] = [
-    "enderio"
+    "enderio",
+    "quarryplus",
 ];
 
 static exclude as IIngredient[] = [
@@ -20,7 +21,9 @@ static exclude as IIngredient[] = [
     <enderio:block_solar_panel:0>,
     <enderio:block_solar_panel:1>,
     <enderio:block_solar_panel:2>,
-    <enderio:block_solar_panel:3>
+    <enderio:block_solar_panel:3>,
+    <quarryplus:quarryplus>,
+    <quarryplus:markerplus>,
 ];
 
 for id in modIDs{

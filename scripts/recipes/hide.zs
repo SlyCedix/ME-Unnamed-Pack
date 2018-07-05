@@ -10,6 +10,10 @@ static hideIngredients as IIngredient[] = [
 	//Buildcraft
 	<buildcraftsilicon:plug_facade:*>,
 
+	//Extended Crafting
+	<extendedcrafting:material:128>,
+	<extendedcrafting:material:129>,
+
 	//Practical Logistics 2
 	<practicallogistics2:sapphireore>,
 

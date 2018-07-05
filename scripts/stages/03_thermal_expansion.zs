@@ -2,9 +2,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var modIDs as string[] = [
+    "extendedcrafting",
 ];
 
 var exclude as IIngredient[] = [
+    <extendedcrafting:crafting_core>,
+    <extendedcrafting:pedestal>,
 ];
 
 for id in modIDs{

@@ -16,14 +16,6 @@ recipes.addShaped(<buildcraftsilicon:laser>, [
     [<ore:dustRedstone>,<ore:dustRedstone>,<immersiveengineering:material:8>],
     [<ore:blockRedstone>,<ore:etLaserLens>,<environmentaltech:laser_core>],
     [<ore:dustRedstone>,<ore:dustRedstone>,<immersiveengineering:material:8>]]);
-recipes.addShaped(<buildcraftsilicon:assembly_table>, [
-    [<immersiveengineering:material:8>,<ore:etLaserLens>,<immersiveengineering:material:8>],
-    [<immersiveengineering:material:8>,<practicallogistics2:node>,<immersiveengineering:material:8>],
-    [<immersiveengineering:material:8>,<ore:gearPlatinum>,<immersiveengineering:material:8>]]);
-recipes.addShaped(<buildcraftbuilders:quarry>, [
-    [<ore:gearIron>,<ore:etLaserLens>,<ore:gearIron>],
-    [<ore:gearNickel>,<immersiveengineering:material:8>,<ore:gearNickel>],
-    [<ore:gearPlatinum>,<minecraft:diamond_pickaxe>,<ore:gearPlatinum>]]);
 
 //Content Tweaker
 recipes.addShaped(<contenttweaker:bulkhead>,[
@@ -47,6 +39,18 @@ recipes.addShaped(<environmentaltech:laser_lens>, [
     [<immersiveengineering:material:8>,<ore:blockGlass>,<immersiveengineering:material:8>],
     [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]]);
 
+//Extended Crafting
+recipes.addShaped(<extendedcrafting:pedestal>, [
+    [null,<ore:ingotBlackIron>,null],
+    [null,<ore:ingotBlackIron>,null],
+    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>]
+]);
+recipes.addShaped(<extendedcrafting:crafting_core>, [
+    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>],
+    [<ore:ingotBlackIron>,<extendedcrafting:frame>,<ore:ingotBlackIron>],
+    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>]
+]);
+
 //Immersive Engineering
 recipes.addShaped(<immersiveengineering:material:8>, [
     [<ore:gearIron>, <practicallogistics2:node>, <ore:gearIron>], 
@@ -64,3 +68,9 @@ recipes.addShaped(<thermalexpansion:machine:5>, [
     [null, <ore:blockRedstone>, null],
     [<ore:plateIron>, <minecraft:dropper>, <ore:plateIron>],
     [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
+
+//QuarryPlus
+recipes.addShaped(<quarryplus:quarryplus>, [
+    [<ore:gearIron>,<ore:etLaserLens>,<ore:gearIron>],
+    [<ore:gearNickel>,<immersiveengineering:material:8>,<ore:gearNickel>],
+    [<ore:gearPlatinum>,<minecraft:diamond_pickaxe>,<ore:gearPlatinum>]]);

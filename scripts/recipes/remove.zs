@@ -15,8 +15,6 @@ var removeItems as IItemStack[] = [
     //Buildcraft
     <buildcraftfactory:autoworkbench_item>,
     <buildcraftsilicon:laser>,
-    <buildcraftsilicon:assembly_table>,
-    <buildcraftbuilders:quarry>,
 
     //Ender IO
     <enderio:item_basic_capacitor:0>,
@@ -48,6 +46,10 @@ var removeItems as IItemStack[] = [
     //Environmental Tech
     <environmentaltech:laser_core>,
     <environmentaltech:laser_lens>,
+
+    //Extended Crafting
+    <extendedcrafting:crafting_core>,
+    <extendedcrafting:pedestal>,
 
     //Extra Utilities 2
     <extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
