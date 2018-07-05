@@ -64,6 +64,32 @@ var removeAndHideItems as IItemStack[] = [
     <enderio:item_redstone_counting_filter>,
     <enderio:item_redstone_sensor_filter>,
     <enderio:item_redstone_timer_filter>,
+
+    //Industrial Craft 2
+    <ic2:te:82>,
+    <ic2:te:86>,
+    <ic2:dust:0>,
+    <ic2:dust:2>,
+    <ic2:dust:4>,
+    <ic2:dust:7>,
+    <ic2:dust:8>,
+    <ic2:dust:10>,
+    <ic2:dust:14>,
+    <ic2:dust:16>,
+    <ic2:dust:17>,
+    <ic2:crafting:3>,
+    <ic2:crop_stick>,
+    <ic2:crop_res:0>,
+    <ic2:crop_res:1>,
+    <ic2:crop_res:2>,
+    <ic2:crop_res:3>,
+    <ic2:crop_res:4>,
+    <ic2:crop_res:5>,
+    <ic2:cropnalyzer>,
+    <ic2:weeding_trowel>,
+    <ic2:booze_mug>,
+    <ic2:debug_item>,
+    <ic2:crop_seed_bag>,
 ];
 
 for item in removeAndHideItems {
