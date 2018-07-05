@@ -1,6 +1,10 @@
 import crafttweaker.item.IItemStack;
 
-var removeItems as IItemStack[] = [    
+var removeItems as IItemStack[] = [  
+    //Contenttweaker
+    <contenttweaker:gear_stone>,
+    <contenttweaker:gear_wood>,
+
     //Thermal Foundation
     <thermalfoundation:material:24>,
     <thermalfoundation:material:25>,

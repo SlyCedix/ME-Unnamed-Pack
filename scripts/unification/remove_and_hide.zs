@@ -12,6 +12,7 @@ var removeAndHideItems as IItemStack[] = [
     <buildcraftcore:gear_gold>,
     <buildcraftcore:gear_iron>,
     <buildcraftcore:gear_stone>,
+    <buildcraftcore:gear_wood>,
 
     //Immersive Engineering
     <immersiveengineering:metal:20>,

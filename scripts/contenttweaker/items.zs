@@ -22,6 +22,12 @@ titaniumCoin.register();
 var iridiumCoin = VanillaFactory.createItem("coin_iridium");
 iridiumCoin.register();
 
+//Gear
+var gearStone = VanillaFactory.createItem("gear_stone");
+gearStone.register();
+var gearWood = VanillaFactory.createItem("gear_wood");
+gearWood.register();
+
 //Plastic
 var sapRubber = VanillaFactory.createItem("rubber_sap");
 sapRubber.register();

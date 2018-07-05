@@ -9,6 +9,8 @@ recipes.replaceAllOccurences(<minecraft:crafting_table>,<ore:workbench>);
 
 //Gears
 recipes.replaceAllOccurences(<ore:gearDiamond>,<ore:gearPlatinum>);
+<ore:gearWood>.add(<contenttweaker:gear_wood>);
+<ore:gearStone>.add(<contenttweaker:gear_stone>);
 
 //Rubber Sap
 <ore:itemRubber>.add(<contenttweaker:rubber_sap>);

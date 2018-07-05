@@ -1,8 +1,13 @@
 //Buildcraft
-recipes.addShaped(<buildcraftcore:gear_stone>, [
+recipes.addShaped(<contenttweaker:gear_stone>, [
     [null, <practicallogistics2:stoneplate>, null],
-    [<practicallogistics2:stoneplate>, <buildcraftcore:gear_wood>, <practicallogistics2:stoneplate>],
+    [<practicallogistics2:stoneplate>, <ore:gearWood>, <practicallogistics2:stoneplate>],
     [null, <practicallogistics2:stoneplate>, null]]);
+
+recipes.addShaped(<contenttweaker:gear_wood>, [
+    [null, <ore:stickWood>, null],
+    [<ore:stickWood>, null, <ore:stickWood>],
+    [null, <ore:stickWood>, null]]);
 
 recipes.replaceAllOccurences(<ic2:crafting:3>,<ore:plateAdvancedAlloy>);
 recipes.replaceAllOccurences(<ic2:crafting:4>,<ore:plateIridiumAlloy>);
