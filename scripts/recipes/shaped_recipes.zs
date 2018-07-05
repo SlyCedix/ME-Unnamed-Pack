@@ -41,14 +41,14 @@ recipes.addShaped(<environmentaltech:laser_lens>, [
 
 //Extended Crafting
 recipes.addShaped(<extendedcrafting:pedestal>, [
-    [null,<ore:ingotBlackIron>,null],
-    [null,<ore:ingotBlackIron>,null],
-    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>]
+    [null,<ore:blockBlackIron>,null],
+    [null,<ore:blockBlackIron>,null],
+    [<ore:blockBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:blockBlackIron>]
 ]);
 recipes.addShaped(<extendedcrafting:crafting_core>, [
-    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>],
-    [<ore:ingotBlackIron>,<extendedcrafting:frame>,<ore:ingotBlackIron>],
-    [<ore:ingotBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:ingotBlackIron>]
+    [<ore:blockBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:blockBlackIron>],
+    [<ore:blockBlackIron>,<extendedcrafting:frame>,<ore:blockBlackIron>],
+    [<ore:blockBlackIron>,<buildcraftsilicon:redstone_chipset:4>,<ore:blockBlackIron>]
 ]);
 
 //Immersive Engineering

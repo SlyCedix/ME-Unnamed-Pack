@@ -8,6 +8,10 @@ var modIDs as string[] = [
 var exclude as IIngredient[] = [
     <extendedcrafting:crafting_core>,
     <extendedcrafting:pedestal>,
+    <extendedcrafting:material:2>,
+    <extendedcrafting:material:0>,
+    <extendedcrafting:frame>,
+    <extendedcrafting:storage:0>,    
 ];
 
 for id in modIDs{
