@@ -10,6 +10,10 @@ var modIDs as string[] = [
 ];
 
 var exclude as IIngredient[] = [
+    <buildcraftcore:gear_diamond>,
+    <buildcraftcore:gear_gold>,
+    <buildcraftcore:gear_iron>,
+    <buildcraftcore:gear_stone>,
 ];
 
 for id in modIDs{
