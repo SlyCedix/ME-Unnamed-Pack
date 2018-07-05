@@ -2,6 +2,11 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 var modIDs as string[] = [
+    "buildcraftsilicon",
+    "buildcraftenergy",
+    "buildcraftrobotics",
+    "buildcraftfactory",
+    "buildcraftcore",    
 ];
 
 var exclude as IIngredient[] = [

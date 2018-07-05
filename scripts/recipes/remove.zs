@@ -9,12 +9,8 @@ var removeItems as IItemStack[] = [
     <minecraft:bed:*>,
     <minecraft:hopper>,
 
-    //Bedrock Ores
-    <bedrockores:bedrock_miner>,
-
     //Buildcraft
     <buildcraftfactory:autoworkbench_item>,
-    <buildcraftsilicon:laser>,
 
     //Ender IO
     <enderio:item_basic_capacitor:0>,
@@ -43,31 +39,14 @@ var removeItems as IItemStack[] = [
     <enderutilities:enderpart:53>,
     <enderutilities:enderpart:54>,
 
-    //Environmental Tech
-    <environmentaltech:laser_core>,
-    <environmentaltech:laser_lens>,
-
-    //Extended Crafting
-    <extendedcrafting:crafting_core>,
-    <extendedcrafting:pedestal>,
-
-    //Extra Utilities 2
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator"}),
-
     //Immersive Engineering
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:material:8>,
     <immersiveengineering:material:9>,
 
-    //Industrial Craft 2
-    <ic2:crafting:1>,
-
     //Practical Logistics 2
     <practicallogistics2:node>,
-
-    //Thermal Expansion
-    <thermalexpansion:machine:5>,
 ];
 
 for item in removeItems {
