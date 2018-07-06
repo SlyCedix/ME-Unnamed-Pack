@@ -170,6 +170,7 @@ var removeAndHideItems as IItemStack[] = [
 	<techreborn:ore:13>,
     <techreborn:dust:7>,
     <techreborn:dust:13>,
+    <techreborn:dust:16>,
     <techreborn:dust:17>,
     <techreborn:dust:24>,
     <techreborn:dust:26>,

@@ -1,4 +1,5 @@
 import mods.thermalexpansion.Compactor;
+import mods.thermalexpansion.Pulverizer;
 
 for item in <ore:plateBronze>.items{
 	mods.thermalexpansion.Compactor.addPressRecipe(<ic2:plate:9>,item*9,13500);
@@ -52,3 +53,6 @@ mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:stoneplate>*
 mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:etchedplate>*4,<minecraft:diamond>,4000);
 mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:signallingplate>*4,<minecraft:redstone>,4000);
 mods.thermalexpansion.Compactor.addPressRecipe(<practicallogistics2:wirelessplate>*4,<minecraft:ender_pearl>,4000);
+
+mods.thermalexpansion.Pulverizer.removeRecipe(<techreborn:plates:5>);
+mods.thermalexpansion.Pulverizer.addRecipe(<ic2:dust:5>,<techreborn:plates:5>,5000);

@@ -12,6 +12,10 @@ recipes.addShaped(<contenttweaker:gear_wood>, [
 recipes.replaceAllOccurences(<ic2:crafting:3>,<ore:plateAdvancedAlloy>);
 recipes.replaceAllOccurences(<ic2:crafting:4>,<ore:plateIridiumAlloy>);
 
+
+//Tech Reborn
+recipes.addShaped(<ic2:dust:5>,[[<ore:dustSmallDiamond>,<ore:dustSmallDiamond>,null],[<ore:dustSmallDiamond>,<ore:dustSmallDiamond>,null],[null,null,null]]);
+
 //Thermal Foundation
 recipes.addShaped(<thermalfoundation:material:24>, [[null, <ore:plateIron>, null], [<ore:plateIron>, <ore:gearStone>, <ore:plateIron>], [null, <ore:plateIron>, null]]);
 recipes.addShaped(<thermalfoundation:material:25>, [[null, <ore:plateGold>, null], [<ore:plateGold>, <ore:gearIron>, <ore:plateGold>], [null, <ore:plateGold>, null]]);
