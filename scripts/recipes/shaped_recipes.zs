@@ -23,9 +23,9 @@ recipes.addShaped(<immersiveengineering:material:8>, [
     [<practicallogistics2:node>, <ore:gearIron>, <practicallogistics2:node>], 
     [<ore:gearIron>, <practicallogistics2:node>, <ore:gearIron>]]);
 recipes.addShaped(<immersiveengineering:material:9>, [
-    [null,<ore:plateSteel>,null],
-    [<ore:plateSteel,<immersiveengineering:material:8>,<ore:plateSteel>],
-    [null,<ore:plateSteel>,null]]);
+    [<ore:gearSteel>,<ore:plateSteel>,<ore:gearSteel>],
+    [<ore:plateSteel>,<immersiveengineering:material:8>,<ore:plateSteel>],
+    [<ore:gearSteel>,<ore:plateSteel>,<ore:gearSteel>]]);
 
 
 //Practical Logistics 2
@@ -34,11 +34,17 @@ recipes.addShaped(<practicallogistics2:node>, [
     [<ore:itemFlint>, <minecraft:glass>, <ore:itemFlint>], 
     [<practicallogistics2:stoneplate>, <ore:itemFlint>, <practicallogistics2:stoneplate>]]);
 
-//Thermal Expansion
-recipes.addShaped(<thermalexpansion:machine:5>, [
-    [null, <ore:blockRedstone>, null],
-    [<ore:plateIron>, <minecraft:dropper>, <ore:plateIron>],
-    [<ore:gearCopper>, <ore:craftingPiston>, <ore:gearCopper>]]);
+//Thermal Foundation
+recipes.addShaped(<thermalfoundation:material:512>, [
+    [<ore:blockRedstone>, <ore:gearElectrum>, <ore:blockRedstone>],
+    [null, <immersiveengineering:material:9>, null], 
+    [<ore:blockRedstone>, <ore:gearElectrum>, <ore:blockRedstone>]]);
+
+//Quark
+recipes.addShaped(<quark:marble:0>, [
+    [<ore:cobblestone>,<ore:gemQuartz>,null],
+    [<ore:gemQuartz>,<ore:cobblestone>,null],
+    [null,null,null]]);
 
 //QuarryPlus
 recipes.addShaped(<quarryplus:quarryplus>, [

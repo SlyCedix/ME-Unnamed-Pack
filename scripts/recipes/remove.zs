@@ -47,6 +47,9 @@ var removeItems as IItemStack[] = [
 
     //Practical Logistics 2
     <practicallogistics2:node>,
+
+    //Thermal Foundation
+    <thermalfoundation:material:512>,
 ];
 
 for item in removeItems {
