@@ -32,3 +32,7 @@ recipes.replaceAllOccurences(<techreborn:part:34>,<ore:meshCarbon>);
 //IC2 Alloys
 recipes.replaceAllOccurences(<ic2:crafting:4>,<ore:plateIridiumAlloy>);
 recipes.replaceAllOccurences(<ic2:crafting:3>,<ore:plateAdvancedAlloy>);
+
+//Basalt & Marble
+<ore:stoneMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
+<ore:stoneBasalt>.add(<undergroundbiomes:igneous_stone:5>);
