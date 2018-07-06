@@ -10,6 +10,9 @@ var modIDs as string[] = [
 ];
 
 var exclude as IIngredient[] = [
+    <buildcraftfactory:autoworkbench_item>,
+
+    //Unified
     <buildcraftcore:gear_diamond>,
     <buildcraftcore:gear_gold>,
     <buildcraftcore:gear_iron>,

@@ -57,6 +57,7 @@ var removeAndHideItems as IItemStack[] = [
     <ic2:resource:7>,
     <ic2:resource:8>,
     <ic2:resource:9>,
+    <ic2:resource:12>,
     <ic2:resource:15>,
     <ic2:plate:0>,
     <ic2:plate:1>,
@@ -66,6 +67,7 @@ var removeAndHideItems as IItemStack[] = [
     <ic2:plate:6>,
     <ic2:plate:7>,
     <ic2:plate:8>,
+    <ic2:crafting:3>,
     <ic2:crafting:4>,
     <ic2:crafting:13>,
     <ic2:crafting:14>,
@@ -78,6 +80,15 @@ var removeAndHideItems as IItemStack[] = [
 	<ic2:ingot:5>,
 	<ic2:ingot:6>,
     <ic2:ingot:7>,
+    <ic2:dust:0>,
+    <ic2:dust:2>,
+    <ic2:dust:4>,
+    <ic2:dust:7>,
+    <ic2:dust:8>,
+    <ic2:dust:10>,
+    <ic2:dust:14>,
+    <ic2:dust:16>,
+    <ic2:dust:17>,
 
     //Mekanism
     <mekanism:basicblock:1>,
@@ -95,6 +106,7 @@ var removeAndHideItems as IItemStack[] = [
 	<mekanism:ingot:6>,
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
+    <mekanism:otherdust:1>,
 
     //Practical Logistics 2
     <practicallogistics2:sapphiredust>,
@@ -156,6 +168,19 @@ var removeAndHideItems as IItemStack[] = [
 	<techreborn:ore:4>,
 	<techreborn:ore:12>,
 	<techreborn:ore:13>,
+    <techreborn:dust:7>,
+    <techreborn:dust:13>,
+    <techreborn:dust:17>,
+    <techreborn:dust:24>,
+    <techreborn:dust:26>,
+    <techreborn:dust:27>,
+    <techreborn:dust:29>,
+    <techreborn:dust:34>,
+    <techreborn:dust:35>,
+    <techreborn:dust:38>,
+    <techreborn:dust:47>,
+    <techreborn:dust:51>,
+    <techreborn:dust:53>,
 ];
 
 
