@@ -38,7 +38,8 @@ var exclude as IIngredient[] = [
 	<mekanism:ingot:6>,
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
-    <mekanism:otherdust:1>
+    <mekanism:otherdust:0>,
+    <mekanism:otherdust:1>,
 ];
 
 for id in modIDs{

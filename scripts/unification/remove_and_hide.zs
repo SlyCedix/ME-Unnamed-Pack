@@ -106,6 +106,7 @@ var removeAndHideItems as IItemStack[] = [
 	<mekanism:ingot:6>,
 	<mekanism:oreblock:1>,
 	<mekanism:oreblock:2>,
+    <mekanism:otherdust:0>,
     <mekanism:otherdust:1>,
 
     //Practical Logistics 2
