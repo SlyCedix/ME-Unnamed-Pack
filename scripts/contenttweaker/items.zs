@@ -20,7 +20,7 @@ var iridium = MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(mo
 
 var coin_list = [copper, tin, aluminum, bronze, invar, steel, titanium, iridium] as Material[];
 
-var coin = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coin").setPartType(MaterialSystem.getPartType("item")).setOreDictName("coin");
+var coin = mods.contenttweaker.MaterialSystem.getPartBuilder().setName("coin").setPartType(MaterialSystem.getPartType("item")).setOreDictName("money");
 coin.build();
 for level in coin_list {
     level.registerPart("coin");
