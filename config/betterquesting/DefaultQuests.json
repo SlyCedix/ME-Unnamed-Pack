@@ -16,8 +16,8 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:coin_copper",
-            "Count:3": 64,
+            "id:8": "contenttweaker:material_part",
+            "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -56,7 +56,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
               "OreDict:8": "",
               "Damage:3": 0
@@ -147,6 +147,13 @@
               "Damage:3": 0
             }
           }
+        },
+        "1:10": {
+          "hideCommand:1": 0,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 1,
+          "index:3": 1,
+          "command:8": "/gamestage add VAR_NAME buildcraft"
         }
       }
     },
@@ -414,28 +421,34 @@
               "Damage:3": 0
             },
             "2:10": {
-              "id:8": "buildcrafttransport:pipe_wood_power",
-              "Count:3": 8,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "3:10": {
-              "id:8": "buildcrafttransport:pipe_cobble_power",
-              "Count:3": 32,
-              "OreDict:8": "",
-              "Damage:3": 0
-            },
-            "4:10": {
               "id:8": "immersiveengineering:wooden_device1",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 1
             },
-            "5:10": {
+            "3:10": {
               "id:8": "immersiveengineering:metal_device1",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 2
+            },
+            "4:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 0
+            },
+            "5:10": {
+              "id:8": "immersiveengineering:connector",
+              "Count:3": 5,
+              "OreDict:8": "",
+              "Damage:3": 1
+            },
+            "6:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 10,
+              "OreDict:8": "",
+              "Damage:3": 6
             }
           }
         }
@@ -468,7 +481,7 @@
           "autoclaim:1": 0,
           "ismain:1": 0,
           "name:8": "Baking Soda",
-          "desc:8": "You may have realized that charcoal and coal aren\u0027t what they used to be, if you want better fuel, you are going to need a coke oven.\n\nA coke oven is a 3x3x3 solid cube of coke bricks, right click the center-front block with an Engineer\u0027s Hammer to activate it.\n\nYou\u0027ll find that the coke oven is useful for other things as well."
+          "desc:8": "You may have realized that charcoal and coal aren\u0027t what they used to be, if you want better fuel, you are going to need a coke oven.\n\nA coke oven is a 3x3x3 solid cube of coke bricks, right click the center-front block with an Engineer\u0027s Hammer to activate it.\n\nDon\u0027t get rid of that creosote either, it\u0027ll be useful later on."
         }
       },
       "tasks:9": {
@@ -937,7 +950,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 8,
               "OreDict:8": "",
               "Damage:3": 0
@@ -1001,8 +1014,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_copper"
+                },
+                "orig_id:8": "contenttweaker:material_part:0"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -1131,7 +1152,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
@@ -1195,7 +1216,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
@@ -1259,7 +1280,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
@@ -1323,7 +1344,7 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
               "OreDict:8": "",
               "Damage:3": 0
@@ -1386,10 +1407,10 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_tin",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 1
             }
           }
         }
@@ -1441,10 +1462,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1556,10 +1585,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1620,10 +1657,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1684,10 +1729,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1748,10 +1801,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1812,10 +1873,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 2,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1876,10 +1945,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 6,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -1953,10 +2030,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2029,10 +2114,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2093,10 +2186,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2157,10 +2258,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2208,16 +2317,32 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 7,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             },
             "1:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2278,10 +2403,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 6,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2342,10 +2475,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2406,10 +2547,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_aluminum",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 5,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_aluminum"
+                },
+                "orig_id:8": "contenttweaker:material_part:2"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 2
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2470,10 +2619,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 2,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2534,10 +2691,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 8,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2574,8 +2739,16 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "contenttweaker:coin_copper",
+            "id:8": "contenttweaker:material_part",
             "Count:3": 1,
+            "tag:10": {
+              "orig_meta:3": 0,
+              "orig_tag:10": {
+                "orig_meta:3": 0,
+                "orig_id:8": "contenttweaker:coin_copper"
+              },
+              "orig_id:8": "contenttweaker:material_part:0"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -2603,7 +2776,7 @@
     "37:10": {
       "questID:3": 37,
       "preRequisites:11": [
-        9
+        64
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2615,9 +2788,9 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:material_part",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2648,9 +2821,9 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:material_part",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 11,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2669,7 +2842,8 @@
     "39:10": {
       "questID:3": 39,
       "preRequisites:11": [
-        37
+        37,
+        64
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2681,9 +2855,9 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:material_part",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 9,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2714,9 +2888,9 @@
           "visibility:8": "UNLOCKED",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:nether_star",
+            "id:8": "contenttweaker:material_part",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 10,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -2776,10 +2950,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_bronze",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_bronze"
+                },
+                "orig_id:8": "contenttweaker:material_part:3"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 3
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2840,10 +3022,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2908,10 +3098,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2976,10 +3174,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3044,10 +3250,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3112,10 +3326,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3180,10 +3402,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3248,10 +3478,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3316,10 +3554,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3384,10 +3630,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3452,10 +3706,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3520,10 +3782,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3588,10 +3858,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3656,10 +3934,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3724,8 +4010,16 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -3792,10 +4086,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3860,10 +4162,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3928,10 +4238,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3996,10 +4314,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4064,10 +4390,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4132,10 +4466,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4200,10 +4542,18 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_invar",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_invar"
+                },
+                "orig_id:8": "contenttweaker:material_part:4"
+              },
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 4
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4288,8 +4638,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 1,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_copper"
+                },
+                "orig_id:8": "contenttweaker:material_part:0"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -4358,8 +4716,16 @@
           "index:3": 0,
           "rewards:9": {
             "0:10": {
-              "id:8": "contenttweaker:coin_copper",
+              "id:8": "contenttweaker:material_part",
               "Count:3": 4,
+              "tag:10": {
+                "orig_meta:3": 0,
+                "orig_tag:10": {
+                  "orig_meta:3": 0,
+                  "orig_id:8": "contenttweaker:coin_copper"
+                },
+                "orig_id:8": "contenttweaker:material_part:0"
+              },
               "OreDict:8": "",
               "Damage:3": 0
             }
@@ -4370,7 +4736,7 @@
           "rewardID:8": "bq_standard:command",
           "viaPlayer:1": 1,
           "index:3": 1,
-          "command:8": "/gamestage add VAR_NAME ic2"
+          "command:8": "/gamestage add VAR_NAME ic2_basic"
         }
       }
     }
