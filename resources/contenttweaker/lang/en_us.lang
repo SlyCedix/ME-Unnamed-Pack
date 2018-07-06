@@ -10,3 +10,5 @@ item.contenttweaker.rubber_sap.name=Sap Rubber
 item.contenttweaker.gear_stone.name=Stone Gear
 item.contenttweaker.gear_wood.name=Wood Gear
 tile.contenttweaker.bulkhead=Cupronickel Bulkhead
+contenttweaker.part.coin=%s Coin
+contenttweaker.part.science_pack=Science Pack %s

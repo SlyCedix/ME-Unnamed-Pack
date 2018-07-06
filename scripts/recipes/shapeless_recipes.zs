@@ -8,15 +8,12 @@ for i in 0 to 15 {
 //Buildcraft
 recipes.addShapeless(<buildcraftfactory:autoworkbench_item>, [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>, <minecraft:planks>]);
 
-//Contenttweaker
-static coins as IItemStack[] = [
-    <contenttweaker:coin_copper>,<contenttweaker:coin_tin>,<contenttweaker:coin_aluminum>,<contenttweaker:coin_bronze>,
-    <contenttweaker:coin_invar>,<contenttweaker:coin_steel>,<contenttweaker:coin_titanium>,<contenttweaker:coin_iridium>
-];
-
 for i in 0 to 7 {
-    recipes.addShapeless(coins[i] * 9, [coins[i+1]]);
-    recipes.addShapeless(coins[i+1], [coins[i],coins[i],coins[i],coins[i],coins[i],coins[i],coins[i],coins[i],coins[i]]);
+    recipes.addShapeless(<contenttweaker:material_part>.withDamage(i) * 9, [<contenttweaker:material_part>.withDamage(i+1)]);
+    recipes.addShapeless(<contenttweaker:material_part>.withDamage(i+1), [<contenttweaker:material_part>.withDamage(i),<contenttweaker:material_part>.withDamage(i),
+    <contenttweaker:material_part>.withDamage(i),<contenttweaker:material_part>.withDamage(i),<contenttweaker:material_part>.withDamage(i),
+    <contenttweaker:material_part>.withDamage(i),<contenttweaker:material_part>.withDamage(i),<contenttweaker:material_part>.withDamage(i),
+    <contenttweaker:material_part>.withDamage(i)]);
 }
 
 //Immersive Engineering

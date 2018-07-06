@@ -1,3 +1,16 @@
 {
-  "materialMappings": {}
+  "materialMappings": {
+    "i_i_i_science_pack": 10,
+    "tin_coin": 1,
+    "copper_coin": 0,
+    "steel_coin": 5,
+    "i_i_science_pack": 9,
+    "aluminum_coin": 2,
+    "i_v_science_pack": 11,
+    "i_science_pack": 8,
+    "titanium_coin": 6,
+    "iridium_coin": 7,
+    "invar_coin": 4,
+    "bronze_coin": 3
+  }
 }

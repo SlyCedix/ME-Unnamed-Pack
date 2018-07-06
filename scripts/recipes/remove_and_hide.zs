@@ -85,6 +85,7 @@ var removeAndHideItems as IItemStack[] = [
     <ic2:crop_res:3>,
     <ic2:crop_res:4>,
     <ic2:crop_res:5>,
+    <ic2:terra_wart>,
     <ic2:cropnalyzer>,
     <ic2:weeding_trowel>,
     <ic2:booze_mug>,

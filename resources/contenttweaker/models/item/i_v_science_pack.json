@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/coin_tin"
+    "layer0": "contenttweaker:items/science_pack"
   }
 }
