@@ -3,6 +3,8 @@ import crafttweaker.item.IIngredient;
 
 var modIDs as string[] = [
     "extendedcrafting",
+    "thermalexpansion",
+    "thermaldynamics"
 ];
 
 var exclude as IIngredient[] = [
@@ -11,7 +13,7 @@ var exclude as IIngredient[] = [
     <extendedcrafting:material:2>,
     <extendedcrafting:material:0>,
     <extendedcrafting:frame>,
-    <extendedcrafting:storage:0>,    
+    <extendedcrafting:storage:0>,
 ];
 
 for id in modIDs{

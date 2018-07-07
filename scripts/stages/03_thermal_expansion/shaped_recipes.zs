@@ -72,3 +72,13 @@ recipes.addShaped(<thermaldynamics:retriever:4>,[
     [null,<ore:plateEnderium>,null],
     [<ore:plateEnderium>,<thermaldynamics:retriever:3>,<ore:plateEnderium>],
     [null,<ore:plateEnderium>,null]]);
+
+recipes.addShaped(<thermalexpansion:frame:0>,[
+    [<ore:plateSteel>,<ore:gearElectrum>,<ore:plateSteel>],
+    [<ore:blockGlass>,<immersiveengineering:material:27>,<ore:blockGlass>],
+    [<ore:plateSteel>,<ore:gearElectrum>,<ore:plateSteel>]]);
+
+recipes.addShaped(<thermalexpansion:frame:64>,[
+    [<ore:plateElectrum>,<ore:gearSteel>,<ore:plateElectrum>],
+    [<ore:blockGlass>,<immersiveengineering:material:27>,<ore:blockGlass>],
+    [<ore:plateElectrum>,<ore:gearSteel>,<ore:plateElectrum>]]);
